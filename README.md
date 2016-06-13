@@ -19,3 +19,15 @@ question 2
 就會跑出來了
 
 截圖部分因為電腦分頁問題，程式會跑到讓我的電腦當掉無法運作，所以是用別人的電腦跑完的。
+
+how to compile
+
+g++ -c tetris5.cpp
+g++ -c genMino.cpp
+g++ -c MinoI.cpp
+g++ -c MinoS.cpp
+g++ -c MinoL.cpp
+g++ -c MinoT.cpp
+g++ -c MinoZ.cpp
+g++ -c Mino.cpp
+g++ -o tetris5 tetris5.o genMino.o MinoI.o MinoS.o MinoL.o MinoT.o MinoZ.o Mino.o
